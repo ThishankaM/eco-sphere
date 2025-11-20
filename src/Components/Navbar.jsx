@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import styles from './Navbar.module.css';
 import logo from '../assets/images/logo.png';
+import usericon from '../assets/images/user.png';
 
 const Navbar = () => {
   const navigate = useNavigate();
@@ -42,22 +43,27 @@ const Navbar = () => {
             <ul className={`navbar-nav ${styles.navbarNav}`}>
               <li className="nav-item">
                 <Link className={`nav-link ${styles.navLink}`} to="/artists">
-                  Artists
+                  Home
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link className={`nav-link ${styles.navLink}`} to="/artists">
+                  Redeem
                 </Link>
               </li>
               <li className="nav-item">
                 <Link className={`nav-link ${styles.navLink}`} to="/explore">
-                  Explore
+                  Recycling Guide
                 </Link>
               </li>
               <li className="nav-item">
                 <Link className={`nav-link ${styles.navLink}`} to="/library">
-                  Library
+                  About
                 </Link>
               </li>
               <li className="nav-item">
                 <Link className={`nav-link ${styles.navLink}`} to="/subscription">
-                  Upgrade
+                  Carbon Footprint
                 </Link>
               </li>
             </ul>
@@ -81,7 +87,7 @@ const Navbar = () => {
               ) : (
                 <Link to="/" className={`btn btn-outline-light ${styles.btnOutlineLight}`}>
                   <i className="fas fa-user me-1"></i> 
-                  Login & Signup
+                  <img src={usericon} alt="usericon" className={styles.logo} />
                 </Link>
               )}
             </div>

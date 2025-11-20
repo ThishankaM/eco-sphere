@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import styles from './SignIn&Up.module.css'; 
+import leaf from '../assets/images/leaf.png';
 
 const SignInUp = () => {
   const [isRightPanelActive, setIsRightPanelActive] = useState(false);
