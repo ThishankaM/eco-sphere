@@ -9,10 +9,10 @@ export default defineConfig({
       'react-native': 'react-native-web',
     },
   },
-  /*server: {
+  server: {
     host: true,          // makes Vite listen on 0.0.0.0 so ngrok can reach it
-    port: 3000,          // optional – you already force it via CLI, but harmless
+    port: 2000,          // optional – you already force it via CLI, but harmless
     strictPort: true,    // same as your --strictPort flag
     allowedHosts: 'all', // THIS fixes the ngrok "Blocked request" error
-  },*/
+  },
 })

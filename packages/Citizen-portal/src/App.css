@@ -1,6 +1,7 @@
 /* App.css */
 .App {
-  min-height: 94vh;
+  min-height: 100vh;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
 }

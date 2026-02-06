@@ -1,8 +1,7 @@
-import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
+import { StyleSheet, Text, View } from 'react-native'
 import { NavigationContainer } from '@react-navigation/native'
 import MainStack from './MainStack'
-import { SafeAreaView } from 'react-native-web'
 
 const Routes = () => {
   return (

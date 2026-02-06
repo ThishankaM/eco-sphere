@@ -1,23 +1,41 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import SignInUp from './Components/SignIn&Up';
-import Dashboard from './Components/Dashboard';
-import BottomTab from './Navigation/Routes';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import LandinPage from "./Components/LandingPage/LandingPage";
+import Login from "./Components/LoginPage/login";
+import SignUp from "./Components/SignUpPage/SignUpPage";
+import Callback from "./auth/authCallBack";
+import BottomTab from "./Navigation/Routes";
 import TinyChat from "./Components/TinyChat";
-import { SafeAreaProvider } from 'react-native-safe-area-context';
-import './App.css';
+import "./App.css";
+import { useEffect } from "react";
+import ResetPassword from "./Components/ResetPassword";
+import ConfirmEmail from "./auth/Confirmed";
+import ProtectedRoute from "./Components/ProtectedRoute";
 
 function App() {
   return (
-    
-     <Router>
+    <Router>
       <div className="App">
         <Routes>
-          <Route path="/" element={<SignInUp />} />
-          <Route path="/dashboard" element={<><TinyChat /><BottomTab /></>} />
+          <Route path="/" element={<LandinPage />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/SignUp" element={<SignUp />} />
+          <Route path="/reset-password" element={<ResetPassword />} />
+          <Route path="/confirm-email" element={<ConfirmEmail />} />
+          <Route path="/callback" element={<Callback />} />
+          <Route
+            path="/dashboard"
+            element={
+              <ProtectedRoute>
+                <>
+                  <TinyChat />
+                  <BottomTab />
+                </>
+              </ProtectedRoute>
+            }
+          />
         </Routes>
       </div>
     </Router>
-    
   );
 }
 
