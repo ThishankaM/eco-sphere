@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import styles from './SignIn&Up.module.css'; 
+import Footer from './Footer';
 
 const SignInUp = () => {
   const [isRightPanelActive, setIsRightPanelActive] = useState(false);
@@ -152,7 +153,7 @@ const SignInUp = () => {
       localStorage.setItem('userName', signUpData.name);
       localStorage.setItem('userEmail', signUpData.email);
       
-      navigate('/dashboard');
+        navigate('/dashboard');
     } catch (error) {
       setErrors({ submit: 'Sign up failed. Please try again.' });
     } finally {
@@ -177,7 +178,7 @@ const SignInUp = () => {
       localStorage.setItem('isAuthenticated', 'true');
       localStorage.setItem('userEmail', signInData.email);
       
-      navigate('/dashboard');
+        navigate('/dashboard');
     } catch (error) {
       setErrors({ submit: 'Sign in failed. Please try again.' });
     } finally {
@@ -219,6 +220,7 @@ const SignInUp = () => {
   );
 
   return (
+    <div>
     <div className={styles.mainContainer}>
       <MobileNavigation />
       <div className={`${styles.container} ${isRightPanelActive ? styles.rightPanelActive : ''}`} id="main">
@@ -426,6 +428,8 @@ const SignInUp = () => {
           </div>
         )}
       </div>
+    </div>
+    <Footer />
     </div>
   );
 };

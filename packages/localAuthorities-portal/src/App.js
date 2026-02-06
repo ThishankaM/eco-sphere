@@ -1,7 +1,6 @@
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import Navbar from './Components/Navbar';
 import SignInUp from './Components/SignIn&Up';
-import Footer from './Components/Footer';
 import Dashboard from './Components/Dashboard';
 import './App.css';
 
@@ -18,7 +17,7 @@ function App() {
         <Navbar />
         <main className="main-content">
           <Routes>
-            <Route path="/" element={<SignInUp />} />
+            <Route path="/" element={<SignInUp />}  />
             <Route 
               path="/dashboard" 
               element={
@@ -29,7 +28,6 @@ function App() {
             />
           </Routes>
         </main>
-       <Footer />
       </div>
     </Router>
   );
