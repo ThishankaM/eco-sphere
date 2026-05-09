@@ -1,6 +1,6 @@
 <div align="center">
   <img 
-    src="https://github.com/SE03-SAD-Group-Project/EcoSphere/raw/main/Readme%20Asset/Icon.png" 
+    src="https://github.com/ThishankaM/eco-sphere/blob/dff87498b273409ee47dcf14dad0646d20924e7a/Readme%20Asset/Icon.png" 
     alt="EcoSphere Logo" 
     width="180" 
     style="border-radius: 20px; box-shadow: 0 8px 30px rgba(0,180,90,0.3);"
@@ -95,17 +95,17 @@ It solves real-world pain points:
 ## 🖼️ Screenshots
 
 <div align="center">
-  <img src="https://github.com/SE03-SAD-Group-Project/EcoSphere/raw/9d26dbe7f0549cab4fa997e6793dad6bfc0347b6/Readme%20Asset/1.png" width="24%" style="border-radius:12px; margin:6px; box-shadow:0 8px 25px rgba(0,0,0,0.15)"/>
-  <img src="https://github.com/SE03-SAD-Group-Project/EcoSphere/raw/9d26dbe7f0549cab4fa997e6793dad6bfc0347b6/Readme%20Asset/2.png" width="24%" style="border-radius:12px; margin:6px; box-shadow:0 8px 25px rgba(0,0,0,0.15)"/>
-  <img src="https://github.com/SE03-SAD-Group-Project/EcoSphere/raw/9d26dbe7f0549cab4fa997e6793dad6bfc0347b6/Readme%20Asset/3.png" width="24%" style="border-radius:12px; margin:6px; box-shadow:0 8px 25px rgba(0,0,0,0.15)"/>
-  <img src="https://github.com/SE03-SAD-Group-Project/EcoSphere/raw/9d26dbe7f0549cab4fa997e6793dad6bfc0347b6/Readme%20Asset/4.png" width="24%" style="border-radius:12px; margin:6px; box-shadow:0 8px 25px rgba(0,0,0,0.15)"/>
+  <img src="https://github.com/ThishankaM/eco-sphere/blob/dff87498b273409ee47dcf14dad0646d20924e7a/Readme%20Asset/1.png" width="24%" style="border-radius:12px; margin:6px; box-shadow:0 8px 25px rgba(0,0,0,0.15)"/>
+  <img src="https://github.com/ThishankaM/eco-sphere/blob/dff87498b273409ee47dcf14dad0646d20924e7a/Readme%20Asset/2.png" width="24%" style="border-radius:12px; margin:6px; box-shadow:0 8px 25px rgba(0,0,0,0.15)"/>
+  <img src="https://github.com/ThishankaM/eco-sphere/blob/dff87498b273409ee47dcf14dad0646d20924e7a/Readme%20Asset/3.png" width="24%" style="border-radius:12px; margin:6px; box-shadow:0 8px 25px rgba(0,0,0,0.15)"/>
+  <img src="https://github.com/ThishankaM/eco-sphere/blob/dff87498b273409ee47dcf14dad0646d20924e7a/Readme%20Asset/4.png" width="24%" style="border-radius:12px; margin:6px; box-shadow:0 8px 25px rgba(0,0,0,0.15)"/>
 </div>
 
 <div align="center">
-  <img src="https://github.com/SE03-SAD-Group-Project/EcoSphere/raw/9d26dbe7f0549cab4fa997e6793dad6bfc0347b6/Readme%20Asset/5.png" width="24%" style="border-radius:12px; margin:6px; box-shadow:0 8px 25px rgba(0,0,0,0.15)"/>
-  <img src="https://github.com/SE03-SAD-Group-Project/EcoSphere/raw/9d26dbe7f0549cab4fa997e6793dad6bfc0347b6/Readme%20Asset/6.png" width="24%" style="border-radius:12px; margin:6px; box-shadow:0 8px 25px rgba(0,0,0,0.15)"/>
-  <img src="https://github.com/SE03-SAD-Group-Project/EcoSphere/raw/9d26dbe7f0549cab4fa997e6793dad6bfc0347b6/Readme%20Asset/7.png" width="24%" style="border-radius:12px; margin:6px; box-shadow:0 8px 25px rgba(0,0,0,0.15)"/>
-  <img src="https://github.com/SE03-SAD-Group-Project/EcoSphere/raw/9d26dbe7f0549cab4fa997e6793dad6bfc0347b6/Readme%20Asset/8.png" width="24%" style="border-radius:12px; margin:6px; box-shadow:0 8px 25px rgba(0,0,0,0.15)"/>
+  <img src="https://github.com/ThishankaM/eco-sphere/blob/dff87498b273409ee47dcf14dad0646d20924e7a/Readme%20Asset/5.png" width="24%" style="border-radius:12px; margin:6px; box-shadow:0 8px 25px rgba(0,0,0,0.15)"/>
+  <img src="https://github.com/ThishankaM/eco-sphere/blob/dff87498b273409ee47dcf14dad0646d20924e7a/Readme%20Asset/6.png" width="24%" style="border-radius:12px; margin:6px; box-shadow:0 8px 25px rgba(0,0,0,0.15)"/>
+  <img src="https://github.com/ThishankaM/eco-sphere/blob/dff87498b273409ee47dcf14dad0646d20924e7a/Readme%20Asset/7.png" width="24%" style="border-radius:12px; margin:6px; box-shadow:0 8px 25px rgba(0,0,0,0.15)"/>
+  <img src="https://github.com/ThishankaM/eco-sphere/blob/dff87498b273409ee47dcf14dad0646d20924e7a/Readme%20Asset/8.png" width="24%" style="border-radius:12px; margin:6px; box-shadow:0 8px 25px rgba(0,0,0,0.15)"/>
 </div>
 
 <br/>
